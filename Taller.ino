@@ -1,12 +1,13 @@
-const int LED=13;
+const int Led=13;
 void setup()
 {
-pinMode(LED,OUTPUT);
+pinMode(Led,OUTPUT);
 }
 void loop()
 {
-digitalWrite(LED,HIGH);
+digitalWrite(Led,HIGH);
 delay(1000);
-digitalWrite(LED,LOW);
+digitalWrite(Led,LOW);
 delay(1000);
+
 }
